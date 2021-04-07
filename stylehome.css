@@ -1,0 +1,26 @@
+.slider{
+  border-radius: 10px;
+  width:400px;
+  height:250px;
+  box-shadow: 0 4px 8px 0 grey;
+  background: url(dance1.jpg);
+  position:absolute;
+  left:550px;
+  top:0px;
+  margin:100px auto;
+  animation:slide 20s infinite;
+}
+@keyframes slide{
+  25%{
+    background: url(dance2.jpg);
+  }
+  50%{
+    background: url(dance3.jpg);
+  }
+  75%{
+    background: url(dance4.jpg);
+  }
+  100%{
+    background: url(dance1.jpg);
+  }
+}
